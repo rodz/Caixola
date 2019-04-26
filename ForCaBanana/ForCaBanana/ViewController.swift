@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -18,6 +19,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func TextToVoice(word: String, lang: String){
+        let utter = AVSpeechUtterance(string: word)
+        utter.voice = AVSpeechSynthesisVoice(language: lang)
+        let voice = AVSpeechSynthesizer()
+        voice.speak(utter)
     }
 
 
