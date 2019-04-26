@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5751762273AEA70037D50E /* GameMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751752273AEA70037D50E /* GameMatch.swift */; };
+		3F5751782273B5180037D50E /* ViewControllerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751772273B5180037D50E /* ViewControllerGame.swift */; };
 		3FF8DB702272836A007520CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB6F2272836A007520CC /* AppDelegate.swift */; };
 		3FF8DB722272836A007520CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB712272836A007520CC /* ViewController.swift */; };
 		3FF8DB752272836A007520CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8DB732272836A007520CC /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		3FF8DB7A2272836A007520CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8DB782272836A007520CC /* LaunchScreen.storyboard */; };
 		3FF8DB852272836A007520CC /* ForCaBananaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB842272836A007520CC /* ForCaBananaTests.swift */; };
 		3FF8DB902272836A007520CC /* ForCaBananaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB8F2272836A007520CC /* ForCaBananaUITests.swift */; };
+		3FF8DB9E22728901007520CC /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB9D22728901007520CC /* ViewControllerHome.swift */; };
+		3FF8DBA022728A01007520CC /* ViewControllerSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB9F22728A01007520CC /* ViewControllerSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5751752273AEA70037D50E /* GameMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMatch.swift; sourceTree = "<group>"; };
+		3F5751772273B5180037D50E /* ViewControllerGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGame.swift; sourceTree = "<group>"; };
 		3FF8DB6C2272836A007520CC /* ForCaBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCaBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF8DB6F2272836A007520CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF8DB712272836A007520CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		3FF8DB8B2272836A007520CC /* ForCaBananaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForCaBananaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF8DB8F2272836A007520CC /* ForCaBananaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCaBananaUITests.swift; sourceTree = "<group>"; };
 		3FF8DB912272836A007520CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF8DB9D22728901007520CC /* ViewControllerHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerHome.swift; path = ../ViewControllerHome.swift; sourceTree = "<group>"; };
+		3FF8DB9F22728A01007520CC /* ViewControllerSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		3FF8DB6E2272836A007520CC /* ForCaBanana */ = {
 			isa = PBXGroup;
 			children = (
+				3FF8DB9D22728901007520CC /* ViewControllerHome.swift */,
 				3FF8DB6F2272836A007520CC /* AppDelegate.swift */,
 				3FF8DB712272836A007520CC /* ViewController.swift */,
+				3F5751752273AEA70037D50E /* GameMatch.swift */,
+				3F5751772273B5180037D50E /* ViewControllerGame.swift */,
 				3FF8DB732272836A007520CC /* Main.storyboard */,
+				3FF8DB9F22728A01007520CC /* ViewControllerSelector.swift */,
 				3FF8DB762272836A007520CC /* Assets.xcassets */,
 				3FF8DB782272836A007520CC /* LaunchScreen.storyboard */,
 				3FF8DB7B2272836A007520CC /* Info.plist */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF8DB722272836A007520CC /* ViewController.swift in Sources */,
+				3F5751762273AEA70037D50E /* GameMatch.swift in Sources */,
+				3F5751782273B5180037D50E /* ViewControllerGame.swift in Sources */,
+				3FF8DB9E22728901007520CC /* ViewControllerHome.swift in Sources */,
 				3FF8DB702272836A007520CC /* AppDelegate.swift in Sources */,
+				3FF8DBA022728A01007520CC /* ViewControllerSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				3FF8DB962272836A007520CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF8DB972272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBananaTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				3FF8DB992272836A007520CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF8DB9A2272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBananaUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				3FF8DB9C2272836A007520CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
