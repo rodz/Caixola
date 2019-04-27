@@ -89,24 +89,50 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Certos: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe1-Iy-CHe">
+<<<<<<< HEAD
                                 <rect key="frame" x="16" y="526" width="61" height="20.5"/>
+=======
+                                <rect key="frame" x="16" y="525" width="61" height="21"/>
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Errados: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaC-hd-OAv">
+<<<<<<< HEAD
                                 <rect key="frame" x="16" y="646.5" width="68.5" height="20.5"/>
+=======
+                                <rect key="frame" x="16" y="646" width="69" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkQ-To-XQ0">
+                                <rect key="frame" x="127" y="667" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqw-JY-maM">
+                                <rect key="frame" x="127" y="567" width="0.0" height="0.0"/>
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKt-rt-baM">
+<<<<<<< HEAD
                                 <rect key="frame" x="134.5" y="646.5" width="43.5" height="20.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+=======
+                                <rect key="frame" x="135" y="646" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5D-8K-HeM">
+<<<<<<< HEAD
                                 <rect key="frame" x="127" y="526" width="43.5" height="20.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
@@ -176,6 +202,65 @@
                             <constraint firstAttribute="trailingMargin" secondItem="SxJ-WP-pDR" secondAttribute="trailing" id="mpC-sc-9EU"/>
                             <constraint firstItem="G5D-8K-HeM" firstAttribute="leading" secondItem="Xe1-Iy-CHe" secondAttribute="trailing" constant="50" id="rUf-JW-dNu"/>
                             <constraint firstItem="fNz-Ue-cm8" firstAttribute="leading" secondItem="T99-bJ-0sp" secondAttribute="leadingMargin" id="ukN-0l-bkv"/>
+=======
+                                <rect key="frame" x="127" y="525" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T4a-pb-RGk">
+                                <rect key="frame" x="139" y="161" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JvU-gy-GkV">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8j-Iz-ftr">
+                                <rect key="frame" x="164" y="356" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="enterLetterButtom:" destination="Svn-8o-Q9T" eventType="touchUpInside" id="JyK-49-fC9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbF-lv-ObZ">
+                                <rect key="frame" x="164" y="199" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="entterWordButtom:" destination="Svn-8o-Q9T" eventType="touchUpInside" id="PET-ep-vte"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="akL-pT-igA">
+                                <rect key="frame" x="139" y="161" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fkQ-To-XQ0" firstAttribute="top" secondItem="dqw-JY-maM" secondAttribute="bottom" constant="100" id="0ux-15-kKh"/>
+                            <constraint firstItem="PaC-hd-OAv" firstAttribute="top" secondItem="Xe1-Iy-CHe" secondAttribute="bottom" constant="100" id="EMh-s5-Mki"/>
+                            <constraint firstItem="WKt-rt-baM" firstAttribute="top" secondItem="G5D-8K-HeM" secondAttribute="bottom" constant="100" id="Fyd-nV-BRM"/>
+                            <constraint firstItem="PaC-hd-OAv" firstAttribute="leading" secondItem="T99-bJ-0sp" secondAttribute="leadingMargin" id="GNf-Jh-HRq"/>
+                            <constraint firstItem="fkQ-To-XQ0" firstAttribute="leading" secondItem="Xe1-Iy-CHe" secondAttribute="trailing" constant="50" id="Htf-xR-ReR"/>
+                            <constraint firstItem="A1b-ZW-6l9" firstAttribute="top" secondItem="fkQ-To-XQ0" secondAttribute="bottom" id="LlR-R5-GNZ"/>
+                            <constraint firstItem="Xe1-Iy-CHe" firstAttribute="leading" secondItem="T99-bJ-0sp" secondAttribute="leadingMargin" id="Maj-aY-8bE"/>
+                            <constraint firstItem="WKt-rt-baM" firstAttribute="leading" secondItem="PaC-hd-OAv" secondAttribute="trailing" constant="50" id="UF2-9W-GIG"/>
+                            <constraint firstItem="A1b-ZW-6l9" firstAttribute="top" secondItem="WKt-rt-baM" secondAttribute="bottom" id="ZV8-dn-T53"/>
+                            <constraint firstItem="dqw-JY-maM" firstAttribute="leading" secondItem="Xe1-Iy-CHe" secondAttribute="trailing" constant="50" id="eTB-b9-Fox"/>
+                            <constraint firstItem="A1b-ZW-6l9" firstAttribute="top" secondItem="PaC-hd-OAv" secondAttribute="bottom" id="iOh-dI-R4D"/>
+                            <constraint firstItem="G5D-8K-HeM" firstAttribute="leading" secondItem="Xe1-Iy-CHe" secondAttribute="trailing" constant="50" id="rUf-JW-dNu"/>
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
                         </constraints>
                     </view>
                     <connections>
@@ -183,7 +268,10 @@
                         <outlet property="errosLabel" destination="WKt-rt-baM" id="5Mu-WM-qqD"/>
                         <outlet property="gameLetterTextField" destination="JvU-gy-GkV" id="mWL-9I-yFl"/>
                         <outlet property="gameWordTextField" destination="akL-pT-igA" id="ehl-nq-imf"/>
+<<<<<<< HEAD
                         <outlet property="workImage" destination="WN0-3L-k4E" id="wQf-pe-QbW"/>
+=======
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HUi-hv-wyS" userLabel="First Responder" sceneMemberID="firstResponder"/>

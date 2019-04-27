@@ -19,7 +19,7 @@ class ViewControllerGame: UIViewController {
     @IBOutlet weak var errosLabel: UILabel!
     @IBOutlet weak var gameWordTextField: UITextField!
     @IBOutlet weak var gameLetterTextField: UITextField!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.errosLabel.text = ""
@@ -49,7 +49,6 @@ class ViewControllerGame: UIViewController {
     }
     
     func addLetter(letter: Character){
-        
         if game.isLetter(letter: letter){
             if !game.alreadySelected(letter: letter){
                 self.acertosLabel.text = self.acertosLabel.text! + " " + String(letter)
@@ -68,18 +67,16 @@ class ViewControllerGame: UIViewController {
     }
     
     func TextToVoice(word: String, lang: String){
-        
         let utter = AVSpeechUtterance(string: word)
         utter.voice = AVSpeechSynthesisVoice(language: lang)
         let voice = AVSpeechSynthesizer()
         voice.speak(utter)
-        
     }
+
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
- 
 
 }

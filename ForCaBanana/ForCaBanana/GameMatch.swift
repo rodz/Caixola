@@ -19,6 +19,7 @@ class GameMatch{
     var Image: String
     
     init(word: String, link: String){
+    
         self.Word = word
         self.Accepted = []
         self.Failure = []
@@ -49,6 +50,7 @@ class GameMatch{
                 self.Lifes = self.Lifes - 1
             }
         }
-    }    
+    }
+    
     
 }

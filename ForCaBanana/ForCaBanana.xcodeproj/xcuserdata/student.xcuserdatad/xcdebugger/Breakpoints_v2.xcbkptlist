@@ -10,11 +10,19 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ForCaBanana/GameMatch.swift"
+<<<<<<< HEAD
             timestampString = "578017064.271938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
             endingLineNumber = "35"
+=======
+            timestampString = "578010416.330664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
             landmarkName = "isLetter(letter:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +34,19 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ForCaBanana/GameMatch.swift"
+<<<<<<< HEAD
             timestampString = "578017064.271938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
+=======
+            timestampString = "578010416.330664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
             landmarkName = "GameMatch"
             landmarkType = "3">
          </BreakpointContent>
@@ -42,11 +58,19 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ForCaBanana/GameMatch.swift"
+<<<<<<< HEAD
             timestampString = "578017064.271938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
+=======
+            timestampString = "578010416.330664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
             landmarkName = "isLetter(letter:)"
             landmarkType = "7">
          </BreakpointContent>

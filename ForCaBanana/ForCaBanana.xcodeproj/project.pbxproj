@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		3F5751762273AEA70037D50E /* GameMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751752273AEA70037D50E /* GameMatch.swift */; };
 		3F5751782273B5180037D50E /* ViewControllerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751772273B5180037D50E /* ViewControllerGame.swift */; };
+<<<<<<< HEAD
 		3F57517A2273C0D90037D50E /* WordComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751792273C0D90037D50E /* WordComp.swift */; };
+=======
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
 		3FF8DB702272836A007520CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB6F2272836A007520CC /* AppDelegate.swift */; };
 		3FF8DB722272836A007520CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB712272836A007520CC /* ViewController.swift */; };
 		3FF8DB752272836A007520CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8DB732272836A007520CC /* Main.storyboard */; };
@@ -41,7 +44,10 @@
 /* Begin PBXFileReference section */
 		3F5751752273AEA70037D50E /* GameMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMatch.swift; sourceTree = "<group>"; };
 		3F5751772273B5180037D50E /* ViewControllerGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGame.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3F5751792273C0D90037D50E /* WordComp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordComp.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
 		3FF8DB6C2272836A007520CC /* ForCaBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCaBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF8DB6F2272836A007520CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF8DB712272836A007520CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +118,10 @@
 				3FF8DB712272836A007520CC /* ViewController.swift */,
 				3F5751752273AEA70037D50E /* GameMatch.swift */,
 				3F5751772273B5180037D50E /* ViewControllerGame.swift */,
+<<<<<<< HEAD
 				3F5751792273C0D90037D50E /* WordComp.swift */,
+=======
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
 				3FF8DB732272836A007520CC /* Main.storyboard */,
 				3FF8DB9F22728A01007520CC /* ViewControllerSelector.swift */,
 				3FF8DB762272836A007520CC /* Assets.xcassets */,
@@ -280,7 +289,10 @@
 				3FF8DB9E22728901007520CC /* ViewControllerHome.swift in Sources */,
 				3FF8DB702272836A007520CC /* AppDelegate.swift in Sources */,
 				3FF8DBA022728A01007520CC /* ViewControllerSelector.swift in Sources */,
+<<<<<<< HEAD
 				3F57517A2273C0D90037D50E /* WordComp.swift in Sources */,
+=======
+>>>>>>> b91bf574006b31a86464214cc8d58d62dc0b0600
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
