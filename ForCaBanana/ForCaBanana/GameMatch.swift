@@ -16,12 +16,14 @@ class GameMatch{
     var Accepted: [Character]
     var Failure: [Character]
     var Lifes: Int
+    var Image: String
     
-    init(word: String){
+    init(word: String, link: String){
         self.Word = word
         self.Accepted = []
         self.Failure = []
         self.Lifes = 6
+        self.Image = link
         self.Remaining = Set(self.Word.characters).count
     }
     
@@ -47,10 +49,6 @@ class GameMatch{
                 self.Lifes = self.Lifes - 1
             }
         }
-    }
-    
-    
-    
-    
+    }    
     
 }

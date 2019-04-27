@@ -11,11 +11,15 @@ import AVFoundation
 
 class ViewControllerGame: UIViewController {
     
+    var Portuguese: [WordComp] = [WordComp.init(word: "Banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "Abelha", link: "956450_1.jpg")]
+    var game: GameMatch = GameMatch.init(word: "oi", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg")
+    
+    @IBOutlet weak var workImage: UIImageView!
     @IBOutlet weak var acertosLabel: UILabel!
     @IBOutlet weak var errosLabel: UILabel!
-    var game: GameMatch = GameMatch.init(word: "oi")
     @IBOutlet weak var gameWordTextField: UITextField!
     @IBOutlet weak var gameLetterTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.errosLabel.text = ""
@@ -29,9 +33,15 @@ class ViewControllerGame: UIViewController {
         self.gameLetterTextField.text = ""
         
     }
+    
     @IBAction func entterWordButtom(_ sender: Any) {
-        game = GameMatch.init(word: gameWordTextField.text!)
+        
+        game = GameMatch.init(word: gameWordTextField.text!, link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg")
+        self.workImage.image = UIImage(named: game.Image)
         self.gameWordTextField.text = ""
+        self.acertosLabel.text = ""
+        self.errosLabel.text = ""
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -39,6 +49,7 @@ class ViewControllerGame: UIViewController {
     }
     
     func addLetter(letter: Character){
+        
         if game.isLetter(letter: letter){
             if !game.alreadySelected(letter: letter){
                 self.acertosLabel.text = self.acertosLabel.text! + " " + String(letter)
@@ -50,24 +61,25 @@ class ViewControllerGame: UIViewController {
             }
             game.addLetter(letter: letter)
         }
+        
+    }
+    @IBAction func voiceButtom(_ sender: Any) {
+        TextToVoice(word: game.Word, lang: "pt-BR")
     }
     
     func TextToVoice(word: String, lang: String){
+        
         let utter = AVSpeechUtterance(string: word)
         utter.voice = AVSpeechSynthesisVoice(language: lang)
         let voice = AVSpeechSynthesizer()
         voice.speak(utter)
+        
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+ 
 
 }
