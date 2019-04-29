@@ -98,9 +98,12 @@ class ViewControllerGame: UIViewController {
         }
         
     }
+    @IBAction func enterLetter(_ sender: Any) {
+        
+    }
     @IBOutlet weak var voiceButtom: UIButton!
     @IBAction func voiceButtom(_ sender: Any) {
-        TextToVoice(word: game.Word, lang: "pt-BR")
+        TextToVoice(word: game.Word, lang: self.idiom)
     }
     
     func TextToVoice(word: String, lang: String){
