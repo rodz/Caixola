@@ -11,6 +11,7 @@ import AVFoundation
 
 class ViewControllerGame: UIViewController {
     
+    
     var idiom: String = "pt-BR"
     var level: Int = 1
     var Portuguese: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
@@ -18,7 +19,7 @@ class ViewControllerGame: UIViewController {
     var Spanish: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
     var French: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
     var game: GameMatch = GameMatch.init(word: "oi", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg")
-    
+    @IBOutlet weak var wordLabel: UILabel!
     @IBOutlet weak var workImage: UIImageView!
     @IBOutlet weak var acertosLabel: UILabel!
     @IBOutlet weak var errosLabel: UILabel!
@@ -34,7 +35,6 @@ class ViewControllerGame: UIViewController {
     }
     
     func setUp(language: String, level: Int){
-        let random = Int(arc4random_uniform(6) + 1)
         var pala : WordComp
         if language == "pt-BR"{
             let random = Int(arc4random_uniform(UInt32(Portuguese.count)))
@@ -54,11 +54,11 @@ class ViewControllerGame: UIViewController {
             self.voiceButtom.isHidden = true
         }
         
-        
         game = GameMatch.init(word: pala.Word, link: pala.Image)
         self.workImage.image = UIImage(named: game.Image)
         self.acertosLabel.text = ""
         self.errosLabel.text = ""
+        self.wordLabel.text = game.getInicialString()
         
     }
 
@@ -79,6 +79,10 @@ class ViewControllerGame: UIViewController {
         
     }
     */
+    @IBAction func entterLetterButtom(_ sender: Any) {
+        self.addLetter(letter: "a")
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -88,6 +92,8 @@ class ViewControllerGame: UIViewController {
         if game.isLetter(letter: letter){
             if !game.alreadySelected(letter: letter){
                 self.acertosLabel.text = self.acertosLabel.text! + " " + String(letter)
+                self.wordLabel.text = game.putNewLetter(atual: self.wordLabel.text!, letra: letter)
+                
             }
             game.addLetter(letter: letter)
         }else{

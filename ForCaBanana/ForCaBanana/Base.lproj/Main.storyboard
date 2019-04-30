@@ -31,52 +31,76 @@
                                     <segue destination="hZQ-Sx-jSf" kind="show" id="UT2-uK-xN4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puK-Vx-5fX">
-                                <rect key="frame" x="284" y="72" width="71" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FX2-oQ-yro">
+                                <rect key="frame" x="0.0" y="64" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Portugues"/>
-                                <connections>
-                                    <action selector="portugueseButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MoE-7k-mPe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGT-eC-yQa">
-                                <rect key="frame" x="193" y="72" width="50" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="English"/>
-                                <connections>
-                                    <action selector="englishButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wb9-Ev-pSo"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db7-6K-n1m">
-                                <rect key="frame" x="112" y="72" width="58" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Français"/>
-                                <connections>
-                                    <action selector="frenchButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDJ-vT-MJl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-1q-Q33">
-                                <rect key="frame" x="34" y="72" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Español"/>
-                                <connections>
-                                    <action selector="EspButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRN-ys-hq1"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" red="0.34666622985016848" green="1" blue="0.73191950116345406" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <stackView opaque="NO" tag="12" contentMode="scaleToFill" alignment="bottom" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="9Gf-u2-B7J">
+                                <rect key="frame" x="0.0" y="64" width="375" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-1q-Q33">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="30"/>
+                                        <state key="normal" title="Español"/>
+                                        <connections>
+                                            <action selector="EspButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRN-ys-hq1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db7-6K-n1m">
+                                        <rect key="frame" x="108" y="0.0" width="58" height="30"/>
+                                        <state key="normal" title="Français"/>
+                                        <connections>
+                                            <action selector="frenchButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDJ-vT-MJl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGT-eC-yQa">
+                                        <rect key="frame" x="180" y="0.0" width="50" height="30"/>
+                                        <state key="normal" title="English"/>
+                                        <connections>
+                                            <action selector="englishButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wb9-Ev-pSo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puK-Vx-5fX">
+                                        <rect key="frame" x="244" y="0.0" width="71" height="30"/>
+                                        <state key="normal" title="Portugues"/>
+                                        <connections>
+                                            <action selector="portugueseButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MoE-7k-mPe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWQ-tE-Ygl">
+                                        <rect key="frame" x="329" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="flagButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kXM-Or-bGV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9Gf-u2-B7J" secondAttribute="trailing" id="Irn-mC-mMo"/>
+                            <constraint firstItem="9Gf-u2-B7J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="PDK-Kq-6BX"/>
+                            <constraint firstItem="9Gf-u2-B7J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="prA-PV-Eop"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bIK-q3-HJl"/>
                     <connections>
                         <outlet property="EspButtom" destination="Dgc-1q-Q33" id="JDu-jc-034"/>
+                        <outlet property="backgroundLabel" destination="FX2-oQ-yro" id="rn2-oa-YVT"/>
                         <outlet property="englishButtom" destination="ZGT-eC-yQa" id="0Nb-Ag-Yea"/>
+                        <outlet property="flagButtom" destination="dWQ-tE-Ygl" id="d80-3d-K0n"/>
                         <outlet property="frenchButtom" destination="db7-6K-n1m" id="rwR-6b-UHS"/>
                         <outlet property="portugueseButtom" destination="puK-Vx-5fX" id="igg-JA-b0Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-41" y="70"/>
+            <point key="canvasLocation" x="-42.399999999999999" y="69.715142428785612"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="J8T-wy-can">
@@ -133,6 +157,10 @@
                                     <segue destination="Svn-8o-Q9T" kind="show" id="O1P-a1-KRh"/>
                                 </connections>
                             </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Bjb-Bp-IBP">
+                                <rect key="frame" x="202" y="457" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -197,17 +225,25 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8SM-8o-U1D">
-                                <rect key="frame" x="59" y="174" width="240" height="128"/>
+                                <rect key="frame" x="67" y="106" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPZ-W4-Ypi">
-                                <rect key="frame" x="135" y="402" width="105" height="30"/>
+                                <rect key="frame" x="135" y="409" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ENTER LETTER"/>
                                 <connections>
                                     <action selector="enterLetter:" destination="Svn-8o-Q9T" eventType="touchUpInside" id="IAT-Pa-g48"/>
+                                    <action selector="entterLetterButtom:" destination="Svn-8o-Q9T" eventType="touchUpInside" id="iOP-ig-VVf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PALAVRA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lr-Wy-7t4">
+                                <rect key="frame" x="151" y="323" width="73" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -235,6 +271,7 @@
                         <outlet property="acertosLabel" destination="G5D-8K-HeM" id="oig-iB-UWn"/>
                         <outlet property="errosLabel" destination="WKt-rt-baM" id="5Mu-WM-qqD"/>
                         <outlet property="voiceButtom" destination="fak-9T-IIy" id="HdW-3t-ZVc"/>
+                        <outlet property="wordLabel" destination="7lr-Wy-7t4" id="F9n-bI-3Ed"/>
                         <outlet property="workImage" destination="8SM-8o-U1D" id="FM5-5W-Lqf"/>
                     </connections>
                 </viewController>

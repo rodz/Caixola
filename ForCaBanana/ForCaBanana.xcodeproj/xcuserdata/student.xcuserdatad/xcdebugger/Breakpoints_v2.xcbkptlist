@@ -10,49 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ForCaBanana/GameMatch.swift"
-            timestampString = "578010416.330664"
+            timestampString = "578356772.837864"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "isLetter(letter:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ForCaBanana/GameMatch.swift"
-            timestampString = "578010416.330664"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-<<<<<<< HEAD
-            landmarkName = "isLetter(letter:)"
-            landmarkType = "7">
-=======
-            landmarkName = "GameMatch"
-            landmarkType = "3">
->>>>>>> 305cf4d0e2abcbead8a3815cb7f80467237a7bce
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ForCaBanana/GameMatch.swift"
-            timestampString = "578010416.330664"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "isLetter(letter:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "putNewLetter(atual:letra:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
