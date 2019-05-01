@@ -31,8 +31,9 @@
                                     <segue destination="hZQ-Sx-jSf" kind="show" id="UT2-uK-xN4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FX2-oQ-yro">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FX2-oQ-yro">
                                 <rect key="frame" x="0.0" y="64" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.34666622985016848" green="1" blue="0.73191950116345406" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -40,61 +41,41 @@
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <stackView opaque="NO" tag="12" contentMode="scaleToFill" alignment="bottom" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="9Gf-u2-B7J">
-                                <rect key="frame" x="0.0" y="64" width="281" height="45"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWQ-tE-Ygl">
-                                        <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="hhM-r7-hMZ"/>
-                                            <constraint firstAttribute="width" constant="45" id="weZ-tO-L9o"/>
-                                        </constraints>
-                                        <state key="normal" backgroundImage="Bandeira Portugal"/>
-                                        <connections>
-                                            <action selector="flagButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kXM-Or-bGV"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-1q-Q33">
-                                        <rect key="frame" x="59" y="0.0" width="45" height="45"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="45" id="fNJ-eB-FYh"/>
-                                            <constraint firstAttribute="height" constant="45" id="s3B-hI-F8h"/>
-                                        </constraints>
-                                        <state key="normal" title="Español" image="Bandeira Espanha"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-1q-Q33">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="30"/>
+                                        <state key="normal" title="Español"/>
                                         <connections>
                                             <action selector="EspButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRN-ys-hq1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db7-6K-n1m">
-                                        <rect key="frame" x="118" y="0.0" width="45" height="45"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="45" id="NRg-xF-6tZ"/>
-                                            <constraint firstAttribute="height" constant="45" id="yOZ-YQ-aUh"/>
-                                        </constraints>
-                                        <state key="normal" title="Français" image="Bandeira Franca"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db7-6K-n1m">
+                                        <rect key="frame" x="108" y="0.0" width="58" height="30"/>
+                                        <state key="normal" title="Français"/>
                                         <connections>
                                             <action selector="frenchButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDJ-vT-MJl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGT-eC-yQa">
-                                        <rect key="frame" x="177" y="0.0" width="45" height="45"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="3b2-UJ-5lq"/>
-                                            <constraint firstAttribute="width" constant="45" id="7a4-xj-ASo"/>
-                                        </constraints>
-                                        <state key="normal" title="English" image="Bandeira INglaterra"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGT-eC-yQa">
+                                        <rect key="frame" x="180" y="0.0" width="50" height="30"/>
+                                        <state key="normal" title="English"/>
                                         <connections>
                                             <action selector="englishButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wb9-Ev-pSo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puK-Vx-5fX">
-                                        <rect key="frame" x="236" y="0.0" width="45" height="45"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="9wI-Ws-p0A"/>
-                                            <constraint firstAttribute="width" constant="45" id="QoT-cy-DR7"/>
-                                        </constraints>
-                                        <state key="normal" title="Portugues" image="Bandeira Portugal"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puK-Vx-5fX">
+                                        <rect key="frame" x="244" y="0.0" width="71" height="30"/>
+                                        <state key="normal" title="Portugues"/>
                                         <connections>
                                             <action selector="portugueseButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MoE-7k-mPe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWQ-tE-Ygl">
+                                        <rect key="frame" x="329" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="flagButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kXM-Or-bGV"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -102,10 +83,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9Gf-u2-B7J" firstAttribute="leading" secondItem="FX2-oQ-yro" secondAttribute="leading" id="5w4-ni-nZQ"/>
+                            <constraint firstAttribute="trailing" secondItem="9Gf-u2-B7J" secondAttribute="trailing" id="Irn-mC-mMo"/>
                             <constraint firstItem="9Gf-u2-B7J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="PDK-Kq-6BX"/>
-                            <constraint firstItem="9Gf-u2-B7J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qi3-fd-mAE"/>
-                            <constraint firstItem="9Gf-u2-B7J" firstAttribute="top" secondItem="FX2-oQ-yro" secondAttribute="top" id="xY4-v4-nrF"/>
+                            <constraint firstItem="9Gf-u2-B7J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="prA-PV-Eop"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bIK-q3-HJl"/>
@@ -299,31 +279,7 @@
             </objects>
             <point key="canvasLocation" x="1469.5999999999999" y="69.715142428785612"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="FE2-1o-fAW">
-            <objects>
-                <viewController id="rRt-hF-76V" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aBX-Rb-IBD"/>
-                        <viewControllerLayoutGuide type="bottom" id="gzA-ut-duJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JUU-w9-CEd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wa9-Fk-Wgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2296.8000000000002" y="92.203898050974516"/>
-        </scene>
     </scenes>
-    <resources>
-        <image name="Bandeira Espanha" width="256" height="256"/>
-        <image name="Bandeira Franca" width="512" height="512"/>
-        <image name="Bandeira INglaterra" width="256" height="256"/>
-        <image name="Bandeira Portugal" width="512" height="512"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="fH3-xe-bip"/>
     </inferredMetricsTieBreakers>

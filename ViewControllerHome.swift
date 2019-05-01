@@ -10,32 +10,28 @@ import UIKit
 
 class ViewControllerHome: UIViewController {
     var leng: String = "pt-BR"
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.flagButtom.setImage(nil, for: .normal)
-        
+        self.flagButtom.setTitle("Portugues", for: .normal)
         hide()
         // Do any additional setup after loading the view.
     }
-    
     @IBOutlet weak var portugueseButtom: UIButton!
     @IBAction func portugueseButtom(_ sender: Any) {
-        self.flagButtom.setImage(#imageLiteral(resourceName: "Bandeira Portugal"), for: .normal)
+         self.flagButtom.setTitle("Portugues", for: .normal)
         self.leng = "pt-BR"
         hide()
     }
     @IBOutlet weak var backgroundLabel: UILabel!
     @IBOutlet weak var englishButtom: UIButton!
-    @IBAction func englishButtom(_ sender: Any) {        
-        self.flagButtom.setImage(#imageLiteral(resourceName: "Bandeira INglaterra"), for: .normal)
+    @IBAction func englishButtom(_ sender: Any) {
+        self.flagButtom.setTitle("English", for: .normal)
         self.leng = "en-US"
         hide()
     }
     @IBOutlet weak var frenchButtom: UIButton!
     @IBAction func frenchButtom(_ sender: Any) {
-        self.flagButtom.setImage(#imageLiteral(resourceName: "Bandeira Franca"), for: .normal)
+        self.flagButtom.setTitle("Francais", for: .normal)
         self.leng = "fr-FR"
         hide()
     }
@@ -46,7 +42,7 @@ class ViewControllerHome: UIViewController {
     @IBOutlet weak var EspButtom: UIButton!
     @IBAction func EspButtom(_ sender: Any) {
         self.leng = "es-MX"
-        self.flagButtom.setImage(#imageLiteral(resourceName: "Bandeira Espanha"), for: .normal)
+        self.flagButtom.setTitle("Espanol", for: .normal)
         hide()
     }
     func hide(){
