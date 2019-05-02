@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F5751762273AEA70037D50E /* GameMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751752273AEA70037D50E /* GameMatch.swift */; };
+		3F5751782273B5180037D50E /* ViewControllerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751772273B5180037D50E /* ViewControllerGame.swift */; };
+		3F57517A2273C0D90037D50E /* WordComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751792273C0D90037D50E /* WordComp.swift */; };
+		3FEB2168227B9AE200395EF6 /* ViewControllerTutorial1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB2167227B9AE200395EF6 /* ViewControllerTutorial1.swift */; };
+		3FEB216A227B9E0200395EF6 /* ViewControllerTutorial2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB2169227B9E0200395EF6 /* ViewControllerTutorial2.swift */; };
+		3FF8DB702272836A007520CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB6F2272836A007520CC /* AppDelegate.swift */; };
+		3FF8DB722272836A007520CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB712272836A007520CC /* ViewController.swift */; };
+		3FF8DB752272836A007520CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8DB732272836A007520CC /* Main.storyboard */; };
+		3FF8DB772272836A007520CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8DB762272836A007520CC /* Assets.xcassets */; };
+		3FF8DB7A2272836A007520CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8DB782272836A007520CC /* LaunchScreen.storyboard */; };
+		3FF8DB852272836A007520CC /* ForCaBananaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB842272836A007520CC /* ForCaBananaTests.swift */; };
+		3FF8DB902272836A007520CC /* ForCaBananaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB8F2272836A007520CC /* ForCaBananaUITests.swift */; };
+		3FF8DB9E22728901007520CC /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB9D22728901007520CC /* ViewControllerHome.swift */; };
+		3FF8DBA022728A01007520CC /* ViewControllerSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB9F22728A01007520CC /* ViewControllerSelector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF8DB812272836A007520CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF8DB642272836A007520CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF8DB6B2272836A007520CC;
+			remoteInfo = ForCaBanana;
+		};
+		3FF8DB8C2272836A007520CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF8DB642272836A007520CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF8DB6B2272836A007520CC;
+			remoteInfo = ForCaBanana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F5751752273AEA70037D50E /* GameMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMatch.swift; sourceTree = "<group>"; };
+		3F5751772273B5180037D50E /* ViewControllerGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGame.swift; sourceTree = "<group>"; };
+		3F5751792273C0D90037D50E /* WordComp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordComp.swift; sourceTree = "<group>"; };
+		3FEB2167227B9AE200395EF6 /* ViewControllerTutorial1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorial1.swift; sourceTree = "<group>"; };
+		3FEB2169227B9E0200395EF6 /* ViewControllerTutorial2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorial2.swift; sourceTree = "<group>"; };
+		3FF8DB6C2272836A007520CC /* ForCaBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCaBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8DB6F2272836A007520CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FF8DB712272836A007520CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF8DB742272836A007520CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF8DB762272836A007520CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF8DB792272836A007520CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF8DB7B2272836A007520CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF8DB802272836A007520CC /* ForCaBananaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForCaBananaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8DB842272836A007520CC /* ForCaBananaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCaBananaTests.swift; sourceTree = "<group>"; };
+		3FF8DB862272836A007520CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF8DB8B2272836A007520CC /* ForCaBananaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForCaBananaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8DB8F2272836A007520CC /* ForCaBananaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCaBananaUITests.swift; sourceTree = "<group>"; };
+		3FF8DB912272836A007520CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF8DB9D22728901007520CC /* ViewControllerHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerHome.swift; path = ../ViewControllerHome.swift; sourceTree = "<group>"; };
+		3FF8DB9F22728A01007520CC /* ViewControllerSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSelector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF8DB692272836A007520CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8DB7D2272836A007520CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8DB882272836A007520CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF8DB632272836A007520CC = {
+			isa = PBXGroup;
+			children = (
+				3FF8DB6E2272836A007520CC /* ForCaBanana */,
+				3FF8DB832272836A007520CC /* ForCaBananaTests */,
+				3FF8DB8E2272836A007520CC /* ForCaBananaUITests */,
+				3FF8DB6D2272836A007520CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF8DB6D2272836A007520CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8DB6C2272836A007520CC /* ForCaBanana.app */,
+				3FF8DB802272836A007520CC /* ForCaBananaTests.xctest */,
+				3FF8DB8B2272836A007520CC /* ForCaBananaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF8DB6E2272836A007520CC /* ForCaBanana */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8DB9D22728901007520CC /* ViewControllerHome.swift */,
+				3FF8DB6F2272836A007520CC /* AppDelegate.swift */,
+				3FF8DB712272836A007520CC /* ViewController.swift */,
+				3F5751752273AEA70037D50E /* GameMatch.swift */,
+				3F5751772273B5180037D50E /* ViewControllerGame.swift */,
+				3F5751792273C0D90037D50E /* WordComp.swift */,
+				3FF8DB732272836A007520CC /* Main.storyboard */,
+				3FEB2169227B9E0200395EF6 /* ViewControllerTutorial2.swift */,
+				3FEB2167227B9AE200395EF6 /* ViewControllerTutorial1.swift */,
+				3FF8DB9F22728A01007520CC /* ViewControllerSelector.swift */,
+				3FF8DB762272836A007520CC /* Assets.xcassets */,
+				3FF8DB782272836A007520CC /* LaunchScreen.storyboard */,
+				3FF8DB7B2272836A007520CC /* Info.plist */,
+			);
+			path = ForCaBanana;
+			sourceTree = "<group>";
+		};
+		3FF8DB832272836A007520CC /* ForCaBananaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8DB842272836A007520CC /* ForCaBananaTests.swift */,
+				3FF8DB862272836A007520CC /* Info.plist */,
+			);
+			path = ForCaBananaTests;
+			sourceTree = "<group>";
+		};
+		3FF8DB8E2272836A007520CC /* ForCaBananaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8DB8F2272836A007520CC /* ForCaBananaUITests.swift */,
+				3FF8DB912272836A007520CC /* Info.plist */,
+			);
+			path = ForCaBananaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF8DB6B2272836A007520CC /* ForCaBanana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF8DB942272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBanana" */;
+			buildPhases = (
+				3FF8DB682272836A007520CC /* Sources */,
+				3FF8DB692272836A007520CC /* Frameworks */,
+				3FF8DB6A2272836A007520CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForCaBanana;
+			productName = ForCaBanana;
+			productReference = 3FF8DB6C2272836A007520CC /* ForCaBanana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FF8DB7F2272836A007520CC /* ForCaBananaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF8DB972272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBananaTests" */;
+			buildPhases = (
+				3FF8DB7C2272836A007520CC /* Sources */,
+				3FF8DB7D2272836A007520CC /* Frameworks */,
+				3FF8DB7E2272836A007520CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF8DB822272836A007520CC /* PBXTargetDependency */,
+			);
+			name = ForCaBananaTests;
+			productName = ForCaBananaTests;
+			productReference = 3FF8DB802272836A007520CC /* ForCaBananaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FF8DB8A2272836A007520CC /* ForCaBananaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF8DB9A2272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBananaUITests" */;
+			buildPhases = (
+				3FF8DB872272836A007520CC /* Sources */,
+				3FF8DB882272836A007520CC /* Frameworks */,
+				3FF8DB892272836A007520CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF8DB8D2272836A007520CC /* PBXTargetDependency */,
+			);
+			name = ForCaBananaUITests;
+			productName = ForCaBananaUITests;
+			productReference = 3FF8DB8B2272836A007520CC /* ForCaBananaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF8DB642272836A007520CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FF8DB6B2272836A007520CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3FF8DB7F2272836A007520CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FF8DB6B2272836A007520CC;
+					};
+					3FF8DB8A2272836A007520CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FF8DB6B2272836A007520CC;
+					};
+				};
+			};
+			buildConfigurationList = 3FF8DB672272836A007520CC /* Build configuration list for PBXProject "ForCaBanana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF8DB632272836A007520CC;
+			productRefGroup = 3FF8DB6D2272836A007520CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF8DB6B2272836A007520CC /* ForCaBanana */,
+				3FF8DB7F2272836A007520CC /* ForCaBananaTests */,
+				3FF8DB8A2272836A007520CC /* ForCaBananaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF8DB6A2272836A007520CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8DB7A2272836A007520CC /* LaunchScreen.storyboard in Resources */,
+				3FF8DB772272836A007520CC /* Assets.xcassets in Resources */,
+				3FF8DB752272836A007520CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8DB7E2272836A007520CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8DB892272836A007520CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF8DB682272836A007520CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8DB722272836A007520CC /* ViewController.swift in Sources */,
+				3F5751762273AEA70037D50E /* GameMatch.swift in Sources */,
+				3F5751782273B5180037D50E /* ViewControllerGame.swift in Sources */,
+				3FF8DB9E22728901007520CC /* ViewControllerHome.swift in Sources */,
+				3FEB2168227B9AE200395EF6 /* ViewControllerTutorial1.swift in Sources */,
+				3FF8DB702272836A007520CC /* AppDelegate.swift in Sources */,
+				3FEB216A227B9E0200395EF6 /* ViewControllerTutorial2.swift in Sources */,
+				3FF8DBA022728A01007520CC /* ViewControllerSelector.swift in Sources */,
+				3F57517A2273C0D90037D50E /* WordComp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8DB7C2272836A007520CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8DB852272836A007520CC /* ForCaBananaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF8DB872272836A007520CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF8DB902272836A007520CC /* ForCaBananaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FF8DB822272836A007520CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF8DB6B2272836A007520CC /* ForCaBanana */;
+			targetProxy = 3FF8DB812272836A007520CC /* PBXContainerItemProxy */;
+		};
+		3FF8DB8D2272836A007520CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF8DB6B2272836A007520CC /* ForCaBanana */;
+			targetProxy = 3FF8DB8C2272836A007520CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FF8DB732272836A007520CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF8DB742272836A007520CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF8DB782272836A007520CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF8DB792272836A007520CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FF8DB922272836A007520CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FF8DB932272836A007520CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF8DB952272836A007520CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForCaBanana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ForCaBanana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FF8DB962272836A007520CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForCaBanana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ForCaBanana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FF8DB982272836A007520CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForCaBananaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ForCaBananaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForCaBanana.app/ForCaBanana";
+			};
+			name = Debug;
+		};
+		3FF8DB992272836A007520CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForCaBananaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ForCaBananaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForCaBanana.app/ForCaBanana";
+			};
+			name = Release;
+		};
+		3FF8DB9B2272836A007520CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ForCaBananaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ForCaBananaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ForCaBanana;
+			};
+			name = Debug;
+		};
+		3FF8DB9C2272836A007520CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ForCaBananaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ForCaBananaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ForCaBanana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF8DB672272836A007520CC /* Build configuration list for PBXProject "ForCaBanana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8DB922272836A007520CC /* Debug */,
+				3FF8DB932272836A007520CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF8DB942272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBanana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8DB952272836A007520CC /* Debug */,
+				3FF8DB962272836A007520CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF8DB972272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBananaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8DB982272836A007520CC /* Debug */,
+				3FF8DB992272836A007520CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF8DB9A2272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBananaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF8DB9B2272836A007520CC /* Debug */,
+				3FF8DB9C2272836A007520CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FF8DB642272836A007520CC /* Project object */;
+}
