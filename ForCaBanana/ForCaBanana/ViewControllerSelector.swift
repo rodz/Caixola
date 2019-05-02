@@ -37,12 +37,14 @@ class ViewControllerSelector: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("Entrandoo")
         if let novaView = segue.destination as? ViewControllerGame{
                 //novaView.corLabel.text = corTextField.text
             novaView.level = self.level
             novaView.idiom = self.leng
                 
+        }
+        if let novaView = segue.destination as? ViewControllerTutorial1{
+            novaView.leng = self.leng
         }
         
     }

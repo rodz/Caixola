@@ -12,12 +12,14 @@ import AVFoundation
 class ViewControllerGame: UIViewController {
     
     
+    
     var idiom: String = "pt-BR"
     var level: Int = 1
-    var Portuguese: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
-    var English: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
-    var Spanish: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
-    var French: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
+    var Portuguese: [WordComp] = [WordComp.init(word: "banana", link: "banana8Bits"), WordComp.init(word: "abelha", link: "abelha8bits"), WordComp.init(word: "bala", link: "bala8bits")]
+    var English: [WordComp] = [WordComp.init(word: "banana", link: "banana8Bits"), WordComp.init(word: "bee", link: "abelha8bits"), WordComp.init(word: "alien", link: "allien8bits")]
+    var Spanish: [WordComp] = [WordComp.init(word: "banana", link: "banana8Bits"), WordComp.init(word: "anana", link: "abacaxi8bits")]
+    var French: [WordComp] = [WordComp.init(word: "banane", link: "banana8Bits")]
+    
     var game: GameMatch = GameMatch.init(word: "oi", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg")
     @IBOutlet weak var wordLabel: UILabel!
     @IBOutlet weak var workImage: UIImageView!
@@ -31,9 +33,21 @@ class ViewControllerGame: UIViewController {
         setUp(language: idiom, level: level)
         self.errosLabel.text = ""
         self.acertosLabel.text = ""
+        self.gameOverBad.isHidden = true
+        self.gameOverGood.isHidden = true
         // Do any additional setup after loading the view.
     }
-    
+    @IBOutlet weak var gameOverBad: UIButton!
+    @IBAction func gameOverBad(_ sender: Any) {
+        setUp(language: self.idiom, level: self.level)
+        self.gameOverBad.isHidden = true
+    }
+    @IBOutlet weak var gameOverGood: UIButton!
+    @IBAction func gameOverGood(_ sender: Any) {
+        setUp(language: self.idiom, level: self.level)
+        self.gameOverGood.isHidden = true
+
+    }
     func setUp(language: String, level: Int){
         var pala : WordComp
         if language == "pt-BR"{
@@ -50,7 +64,7 @@ class ViewControllerGame: UIViewController {
             pala = French[random]
         }
         
-        if level == 2{
+        if level == 3{
             self.voiceButtom.isHidden = true
         }
         
@@ -82,6 +96,14 @@ class ViewControllerGame: UIViewController {
     @IBAction func entterLetterButtom(_ sender: Any) {
         self.addLetter(letter: "a")
         
+        if game.isGameOver(){
+            if game.Lifes == 0{
+                self.gameOverBad.isHidden = false
+            }else{
+                self.gameOverGood.isHidden = false
+            }
+        }
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -104,12 +126,12 @@ class ViewControllerGame: UIViewController {
         }
         
     }
-    @IBAction func enterLetter(_ sender: Any) {
-        
-    }
     @IBOutlet weak var voiceButtom: UIButton!
     @IBAction func voiceButtom(_ sender: Any) {
         TextToVoice(word: game.Word, lang: self.idiom)
+        if self.level == 2{
+            self.voiceButtom.isHidden = true
+        }
     }
     
     func TextToVoice(word: String, lang: String){
