@@ -15,9 +15,9 @@ class ViewControllerGame: UIViewController {
     var idiom: String = "pt-BR"
     var level: Int = 1
     var Portuguese: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
-    var English: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
-    var Spanish: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
-    var French: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "abelha", link: "956450_1.jpg"), WordComp.init(word: "bala", link: "how-to-draw-candy-step-9.jpg")]
+    var English: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "bee", link: "956450_1.jpg"), WordComp.init(word: "alien", link: "how-to-draw-candy-step-9.jpg")]
+    var Spanish: [WordComp] = [WordComp.init(word: "banana", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg"), WordComp.init(word: "anana", link: "956450_1.jpg")]
+    var French: [WordComp] = [WordComp.init(word: "banane", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg")]
     var game: GameMatch = GameMatch.init(word: "oi", link: "3d542ec6f880b9ff7ce98baf35e0a8fa.jpg")
     @IBOutlet weak var wordLabel: UILabel!
     @IBOutlet weak var workImage: UIImageView!
