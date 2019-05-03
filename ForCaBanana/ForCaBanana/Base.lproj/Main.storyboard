@@ -258,7 +258,7 @@
                                     <segue destination="yKQ-es-PKa" kind="show" id="LMs-6Q-c5S"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="caixa do tutorial" translatesAutoresizingMaskIntoConstraints="NO" id="8ej-x4-Ymt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="195c78b1e024e9c61ebdb1e8a8dad8bb" translatesAutoresizingMaskIntoConstraints="NO" id="8ej-x4-Ymt">
                                 <rect key="frame" x="67" y="306" width="240" height="175"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="175" id="FRy-9J-3JZ"/>
@@ -499,6 +499,7 @@
     </scenes>
     <resources>
         <image name="1556834927968" width="989" height="840"/>
+        <image name="195c78b1e024e9c61ebdb1e8a8dad8bb" width="343" height="288"/>
         <image name="36601" width="512" height="512"/>
         <image name="Bandeira Espanha" width="256" height="256"/>
         <image name="Bandeira Franca" width="512" height="512"/>
@@ -9401,7 +9402,6 @@ qAAAAK0AAADEAAAAxgAAAMgABBF8AAQRgQAEEYwABBGVAAQRqAAEEawABBG3AAQRwAAEEcUABBHNAAQR
 LQAEEj8ABBJCAAQSRwAAAAAAAAQBAAAAAAAAAD4AAAAAAAAAAAAAAAAABBJJA
 </mutableData>
         </image>
-        <image name="caixa do tutorial" width="32" height="32"/>
         <image name="dislikeIcon" width="52" height="52"/>
         <image name="kisspng-loudspeaker-computer-icons-sound-icon-call-icon-5ad1a50bd432e9.2484924415236887158692" width="800" height="800"/>
         <image name="likeIcon" width="52" height="52"/>

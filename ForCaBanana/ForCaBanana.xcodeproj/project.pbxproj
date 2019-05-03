@@ -48,7 +48,7 @@
 		3FEB2167227B9AE200395EF6 /* ViewControllerTutorial1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorial1.swift; sourceTree = "<group>"; };
 		3FEB2169227B9E0200395EF6 /* ViewControllerTutorial2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorial2.swift; sourceTree = "<group>"; };
 		3FEB216B227BAF4E00395EF6 /* LetraDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetraDao.swift; sourceTree = "<group>"; };
-		3FF8DB6C2272836A007520CC /* ForCaBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCaBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF8DB6C2272836A007520CC /* Caixola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caixola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF8DB6F2272836A007520CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF8DB712272836A007520CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FF8DB742272836A007520CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		3FF8DB6D2272836A007520CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FF8DB6C2272836A007520CC /* ForCaBanana.app */,
+				3FF8DB6C2272836A007520CC /* Caixola.app */,
 				3FF8DB802272836A007520CC /* ForCaBananaTests.xctest */,
 				3FF8DB8B2272836A007520CC /* ForCaBananaUITests.xctest */,
 			);
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FF8DB6B2272836A007520CC /* ForCaBanana */ = {
+		3FF8DB6B2272836A007520CC /* Caixola */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FF8DB942272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBanana" */;
+			buildConfigurationList = 3FF8DB942272836A007520CC /* Build configuration list for PBXNativeTarget "Caixola" */;
 			buildPhases = (
 				3FF8DB682272836A007520CC /* Sources */,
 				3FF8DB692272836A007520CC /* Frameworks */,
@@ -164,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = ForCaBanana;
+			name = Caixola;
 			productName = ForCaBanana;
-			productReference = 3FF8DB6C2272836A007520CC /* ForCaBanana.app */;
+			productReference = 3FF8DB6C2272836A007520CC /* Caixola.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3FF8DB7F2272836A007520CC /* ForCaBananaTests */ = {
@@ -217,6 +217,7 @@
 				TargetAttributes = {
 					3FF8DB6B2272836A007520CC = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5BS736VK3H;
 						ProvisioningStyle = Automatic;
 					};
 					3FF8DB7F2272836A007520CC = {
@@ -244,7 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FF8DB6B2272836A007520CC /* ForCaBanana */,
+				3FF8DB6B2272836A007520CC /* Caixola */,
 				3FF8DB7F2272836A007520CC /* ForCaBananaTests */,
 				3FF8DB8A2272836A007520CC /* ForCaBananaUITests */,
 			);
@@ -317,12 +318,12 @@
 /* Begin PBXTargetDependency section */
 		3FF8DB822272836A007520CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3FF8DB6B2272836A007520CC /* ForCaBanana */;
+			target = 3FF8DB6B2272836A007520CC /* Caixola */;
 			targetProxy = 3FF8DB812272836A007520CC /* PBXContainerItemProxy */;
 		};
 		3FF8DB8D2272836A007520CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3FF8DB6B2272836A007520CC /* ForCaBanana */;
+			target = 3FF8DB6B2272836A007520CC /* Caixola */;
 			targetProxy = 3FF8DB8C2272836A007520CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,9 +447,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5BS736VK3H;
 				INFOPLIST_FILE = ForCaBanana/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ForCaBanana;
+				PRODUCT_BUNDLE_IDENTIFIER = forcateste24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -458,9 +461,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5BS736VK3H;
 				INFOPLIST_FILE = ForCaBanana/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ForCaBanana;
+				PRODUCT_BUNDLE_IDENTIFIER = forcateste24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -532,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FF8DB942272836A007520CC /* Build configuration list for PBXNativeTarget "ForCaBanana" */ = {
+		3FF8DB942272836A007520CC /* Build configuration list for PBXNativeTarget "Caixola" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FF8DB952272836A007520CC /* Debug */,

@@ -43,7 +43,14 @@ class LetraDAO {
                 do {
                     if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [[String: AnyObject]] {
                         
-                        let letra = Letra(json: json.last as! [String : String])
+                        if json.count<1{
+                            return
+                        }
+                        
+                        var letra = Letra(json: json[0] as! [String : String])
+                        if letra.letra.characters.count<1{
+                            letra = Letra(json: json[json.count-1] as! [String : String])
+                        }
                         
                         print("\(letra.letra) foi a letra colocada")
                         

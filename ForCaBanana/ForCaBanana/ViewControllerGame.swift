@@ -15,7 +15,7 @@ class ViewControllerGame: UIViewController {
     
     var idiom: String = "pt-BR"
     var level: Int = 1
-    var Portuguese: [WordComp] = [WordComp.init(word: "banana", link: "banana8Bits"), WordComp.init(word: "abelha", link: "abelha8bits"), WordComp.init(word: "bala", link: "bala8bits")]
+    var Portuguese: [WordComp] = [WordComp.init(word: "banana", link: "banana8Bits"), WordComp.init(word: "bala", link: "bala8bits")]
     var English: [WordComp] = [WordComp.init(word: "banana", link: "banana8Bits"), WordComp.init(word: "bee", link: "abelha8bits"), WordComp.init(word: "alien", link: "allien8bits")]
     var Spanish: [WordComp] = [WordComp.init(word: "banana", link: "banana8Bits"), WordComp.init(word: "anana", link: "abacaxi8bits")]
     var French: [WordComp] = [WordComp.init(word: "banane", link: "banana8Bits")]
@@ -98,14 +98,6 @@ class ViewControllerGame: UIViewController {
             self.addLetter(letter: String(describing: letra.letra).characters.first!)
         }
         
-        if game.isGameOver(){
-            if game.Lifes == 0{
-                self.gameOverBad.isHidden = false
-            }else{
-                self.gameOverGood.isHidden = false
-            }
-        }
-        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -125,6 +117,14 @@ class ViewControllerGame: UIViewController {
                 self.errosLabel.text = self.errosLabel.text! + " " + String(letter)
             }
             game.addLetter(letter: letter)
+        }
+        
+        if game.isGameOver(){
+            if game.Lifes == 0{
+                self.gameOverBad.isHidden = false
+            }else{
+                self.gameOverGood.isHidden = false
+            }
         }
         
     }

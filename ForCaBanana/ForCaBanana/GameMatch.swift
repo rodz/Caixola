@@ -62,7 +62,7 @@ class GameMatch{
     }
     
     func isGameOver() -> Bool{
-        return self.Remaining == 0 || self.Lifes == 0
+        return self.Remaining <= 0 || self.Lifes <= 0
     }
     
     func addLetter(letter: Character){
