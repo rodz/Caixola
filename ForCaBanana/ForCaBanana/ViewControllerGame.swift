@@ -94,7 +94,9 @@ class ViewControllerGame: UIViewController {
     }
     */
     @IBAction func entterLetterButtom(_ sender: Any) {
-        self.addLetter(letter: "a")
+        LetraDAO.getLetra { (letra) in
+            self.addLetter(letter: String(describing: letra.letra).characters.first!)
+        }
         
         if game.isGameOver(){
             if game.Lifes == 0{

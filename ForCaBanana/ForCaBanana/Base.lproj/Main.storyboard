@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Unknown constraint types" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -397,13 +396,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.76470588235294112" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="leading" secondItem="T99-bJ-0sp" secondAttribute="leadingMargin" id="6iY-I3-CqL"/>
-                            <constraint firstAttribute="trailing" secondItem="T99-bJ-0sp" secondAttribute="trailingMargin" id="LYj-Va-H9M"/>
-                            <constraint firstAttribute="top" secondItem="edp-eO-9cA" secondAttribute="bottom" id="OeU-bX-9gH"/>
                             <constraint firstItem="OeR-yi-heN" firstAttribute="leading" secondItem="T99-bJ-0sp" secondAttribute="leading" id="Q2s-zX-zun"/>
                             <constraint firstItem="fak-9T-IIy" firstAttribute="top" secondItem="edp-eO-9cA" secondAttribute="bottom" id="fNj-ej-OA8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fak-9T-IIy" secondAttribute="trailing" id="hZa-He-07M"/>
-                            <constraint firstAttribute="top" secondItem="edp-eO-9cA" secondAttribute="bottom" constant="141" id="nWA-mb-VdD"/>
                             <constraint firstItem="A1b-ZW-6l9" firstAttribute="top" secondItem="OeR-yi-heN" secondAttribute="bottom" id="r6K-wP-pF8"/>
                         </constraints>
                     </view>

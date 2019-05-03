@@ -12,6 +12,7 @@
 		3F57517A2273C0D90037D50E /* WordComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5751792273C0D90037D50E /* WordComp.swift */; };
 		3FEB2168227B9AE200395EF6 /* ViewControllerTutorial1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB2167227B9AE200395EF6 /* ViewControllerTutorial1.swift */; };
 		3FEB216A227B9E0200395EF6 /* ViewControllerTutorial2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB2169227B9E0200395EF6 /* ViewControllerTutorial2.swift */; };
+		3FEB216C227BAF4E00395EF6 /* LetraDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB216B227BAF4E00395EF6 /* LetraDao.swift */; };
 		3FF8DB702272836A007520CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB6F2272836A007520CC /* AppDelegate.swift */; };
 		3FF8DB722272836A007520CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8DB712272836A007520CC /* ViewController.swift */; };
 		3FF8DB752272836A007520CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8DB732272836A007520CC /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		3F5751792273C0D90037D50E /* WordComp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordComp.swift; sourceTree = "<group>"; };
 		3FEB2167227B9AE200395EF6 /* ViewControllerTutorial1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorial1.swift; sourceTree = "<group>"; };
 		3FEB2169227B9E0200395EF6 /* ViewControllerTutorial2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorial2.swift; sourceTree = "<group>"; };
+		3FEB216B227BAF4E00395EF6 /* LetraDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetraDao.swift; sourceTree = "<group>"; };
 		3FF8DB6C2272836A007520CC /* ForCaBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCaBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF8DB6F2272836A007520CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF8DB712272836A007520CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				3F5751772273B5180037D50E /* ViewControllerGame.swift */,
 				3F5751792273C0D90037D50E /* WordComp.swift */,
 				3FF8DB732272836A007520CC /* Main.storyboard */,
+				3FEB216B227BAF4E00395EF6 /* LetraDao.swift */,
 				3FEB2169227B9E0200395EF6 /* ViewControllerTutorial2.swift */,
 				3FEB2167227B9AE200395EF6 /* ViewControllerTutorial1.swift */,
 				3FF8DB9F22728A01007520CC /* ViewControllerSelector.swift */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF8DB722272836A007520CC /* ViewController.swift in Sources */,
+				3FEB216C227BAF4E00395EF6 /* LetraDao.swift in Sources */,
 				3F5751762273AEA70037D50E /* GameMatch.swift in Sources */,
 				3F5751782273B5180037D50E /* ViewControllerGame.swift in Sources */,
 				3FF8DB9E22728901007520CC /* ViewControllerHome.swift in Sources */,
