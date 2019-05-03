@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "bala8bits.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "figura bala.png",
       "scale" : "2x"
     },
     {

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "endGameBad.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "botão som.png",
       "scale" : "2x"
     },
     {
