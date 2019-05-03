@@ -44,7 +44,9 @@ class LetraDAO {
                     if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [[String: AnyObject]] {
                         
                         let letra = Letra(json: json[0] as! [String : String])
-                        
+                        if letra.letra.characters.count<1{
+                            letra = Letra(json: json[1] as! [String : String])
+                        }
                         print("\(letra.letra) foi a letra colocada")
                         
                         callback(letra)
