@@ -2,7 +2,7 @@
 
 # About the project
 
-Caixola is a Game designed to help childen from 4 to 11 years develop word building tecniques and also learn another language(Portuguese, English, French and Spanish). The App uses a IOT component implementet using nodemcu that reads wich letter is been placed in the box and send this information to be used in the screen.
+Caixola open source is a game designed to help children from 4 to 11 years develop word building techniques and learn another language(Portuguese, English, French and Spanish). The App uses an IOT component implemented using nodemcu that reads wich letter is been placed in the box and send this information to be used in the screen.
 
 # How to play
 
